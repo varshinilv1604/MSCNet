@@ -34,16 +34,20 @@ The MSCNet workflow follows a sequential deep learning pipeline:
 
 ## Installation & Setup
 
-MSCNet runs on standard Python environments and does not require GPU support for basic experimentation.
+This project is provided as **Jupyter Notebook (`.ipynb`) implementations**, and all experiments have **already been executed**.
+
+- No separate installation or training setup is required.
+- The notebooks include:
+  - Data preprocessing
+  - Model implementation
+  - Training and evaluation
+  - Result visualization
+
+All experimental **results are available directly inside the notebooks**, where **MSCNet achieves the lowest mean error** compared to baseline models.
+
+To reproduce or inspect the results:
 
 ```bash
 # Clone the repository
 git clone https://github.com/<your-username>/MSCNet.git
 cd MSCNet
-
-# Create virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
